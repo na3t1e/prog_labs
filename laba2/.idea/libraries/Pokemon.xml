@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/Downloads/Pokemon.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/Pokemon.jar!/" />
+    </SOURCES>
   </library>
 </component>
