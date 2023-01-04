@@ -1,8 +1,7 @@
-package entity;
+package workes;
 
-import other.Banishing;
-import other.FabricType;
-import other.Workers;
+import interfaces.Banishing;
+import enums.FabricType;
 
 public class FirstWorkers extends Workers implements Banishing {
     public FirstWorkers(FabricType type, boolean canFly) {

@@ -1,7 +1,10 @@
-package entity;
+package workes;
 
 
-import other.*;
+import interfaces.Banishing;
+import interfaces.ShowingEmotions;
+import interfaces.Speaking;
+import enums.*;
 
 public class ThirdWorkers extends Workers implements Banishing, Speaking, ShowingEmotions {
 

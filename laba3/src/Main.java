@@ -1,18 +1,19 @@
-import entity.FirstWorkers;
-import entity.Police;
-import entity.SecondWorkers;
-import entity.ThirdWorkers;
-import other.FabricType;
+import workes.FirstWorkers;
+import police.Police;
+import workes.SecondWorkers;
+import workes.ThirdWorkers;
+import enums.FabricType;
+import workes.Workers;
 
 public class Main {
     public static void main(String[] args) {
         Police police = new Police("Полицейские");
-        FirstWorkers firstWorkers = new FirstWorkers(FabricType.СКУПЕРФИЛЬДОВСКИЕ, true);
-        SecondWorkers secondWorkers = new SecondWorkers(FabricType.ДРУГИХ_ФАБРИК, true);
-        ThirdWorkers thirdWorkers = new ThirdWorkers(FabricType.НЕКОТОРЫХ_ФАБРИК, false);
+        Workers firstWorkers = new FirstWorkers(FabricType.SCAPERFIELDS, true);
+        SecondWorkers secondWorkers = new SecondWorkers(FabricType.OTHER_FACTORIES, true);
+        ThirdWorkers thirdWorkers = new ThirdWorkers(FabricType.SOME_FACTORIES, false);
 
         firstWorkers.makeWeightlessness();
-        firstWorkers.banish("Скуперфильда");
+        ((FirstWorkers) firstWorkers).banish("Скуперфильда");
         police.tellAbout();
         secondWorkers.tellAbout();
         thirdWorkers.tellAbout();

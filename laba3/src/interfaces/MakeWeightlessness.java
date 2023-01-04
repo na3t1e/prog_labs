@@ -1,4 +1,4 @@
-package other;
+package interfaces;
 
 public interface MakeWeightlessness {
     void makeWeightlessness();

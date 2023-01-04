@@ -1,8 +1,8 @@
-package entity;
+package police;
 
-import other.Human;
-import other.ShowingEmotions;
-import other.Speaking;
+import human.Human;
+import interfaces.ShowingEmotions;
+import interfaces.Speaking;
 
 public class Police extends Human implements Speaking, ShowingEmotions {
 

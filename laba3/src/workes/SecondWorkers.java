@@ -1,8 +1,7 @@
-package entity;
+package workes;
 
-import other.FabricType;
-import other.Speaking;
-import other.Workers;
+import enums.FabricType;
+import interfaces.Speaking;
 
 public class SecondWorkers extends Workers implements Speaking {
 

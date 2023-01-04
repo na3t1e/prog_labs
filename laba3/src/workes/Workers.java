@@ -1,8 +1,13 @@
-package other;
+package workes;
+
+import human.Human;
+import interfaces.MakeWeightlessness;
+import enums.FabricType;
 
 public abstract class Workers extends Human implements MakeWeightlessness {
     private FabricType type;
     private boolean CanFly;
+    // Translate a single English String to French
 
     public Workers(FabricType type, boolean canFly) {
         super("рабочие " + type);
