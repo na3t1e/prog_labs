@@ -8,12 +8,12 @@ import workes.Workers;
 public class Main {
     public static void main(String[] args) {
         Police police = new Police("Полицейские");
-        Workers firstWorkers = new FirstWorkers(FabricType.SCAPERFIELDS, true);
+        FirstWorkers firstWorkers = new FirstWorkers(FabricType.SCAPERFIELDS, true);
         SecondWorkers secondWorkers = new SecondWorkers(FabricType.OTHER_FACTORIES, true);
         ThirdWorkers thirdWorkers = new ThirdWorkers(FabricType.SOME_FACTORIES, false);
 
         firstWorkers.makeWeightlessness();
-        ((FirstWorkers) firstWorkers).banish("Скуперфильда");
+        firstWorkers.banish("Скуперфильда");
         police.tellAbout();
         secondWorkers.tellAbout();
         thirdWorkers.tellAbout();
