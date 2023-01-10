@@ -1,6 +1,15 @@
 package enums;
 
 public enum FabricType {
-    SCAPERFIELDS, OTHER_FACTORIES, SOME_FACTORIES
+    SCAPERFIELDS("скуперфильдовские"), OTHER_FACTORIES("других фабрик"), SOME_FACTORIES("некоторых фабрик");
+    private String name;
+
+    FabricType(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
 

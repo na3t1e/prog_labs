@@ -15,6 +15,7 @@ public class ThirdWorkers extends FabricWorkers implements Banishing, Speaking, 
 
     @Override
     public void banish(String text) {
+        this.setObedient(false);
         System.out.println(this.getName() + " прогоняли " + text);
     }
 

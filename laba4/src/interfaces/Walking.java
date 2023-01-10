@@ -1,5 +1,5 @@
 package interfaces;
 
 public interface Walking {
-    void go();
+    String go(String text);
 }

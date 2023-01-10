@@ -1,8 +1,6 @@
 package sleepWalkers;
 
-import human.Human;
-
-abstract class Richers extends Human {
+public abstract class Richers extends SleepWalkers {
     public Richers(String name) {
         super(name);
     }

@@ -1,5 +1,5 @@
 package interfaces;
 
 public interface Running {
-    void run();
+    void run(String text);
 }

@@ -10,6 +10,7 @@ public class FirstWorkers extends FabricWorkers implements Banishing {
 
     @Override
     public void banish(String text) {
+        this.setObedient(false);
         System.out.println(this.getName() + " прогнали " + text);
     }
 
