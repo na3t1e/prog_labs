@@ -13,9 +13,9 @@ public class Main {
 
         firstWorkers.makeWeightlessness();
         firstWorkers.banish("Скуперфильда");
-        police.tellAbout();
-        secondWorkers.tellAbout();
-        thirdWorkers.tellAbout();
+        police.speak();
+        secondWorkers.speak();
+        thirdWorkers.speak();
         secondWorkers.visit();
         secondWorkers.returned();
         secondWorkers.makeWeightlessness();

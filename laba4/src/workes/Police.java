@@ -43,7 +43,7 @@ public class Police extends Workers implements Speaking, ShowingEmotions {
     }
 
     @Override
-    public void tellAbout() {
+    public void speak() {
         System.out.println(this.getName() + " говорили об этом");
     }
 }

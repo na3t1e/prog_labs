@@ -19,7 +19,7 @@ public class SecondWorkers extends FabricWorkers implements Speaking {
     }
 
     @Override
-    public void tellAbout() {
+    public void speak() {
         System.out.println(this.getName() + " говорили об этом");
     }
 
